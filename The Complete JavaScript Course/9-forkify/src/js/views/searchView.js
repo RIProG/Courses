@@ -11,6 +11,14 @@ export const clearResults = () => {
     elements.searchResPages.innerHTML = '';
 };
 
+export const highlightSelected = id => {
+    const resultsArr = Array.from(document.querySelectorAll('.results__link'));
+    resultsArr.forEach(el => {
+        el.classList.remove('results__link--active');
+    });
+    document.querySelector(`.results__link[href*="${id}"]`).classList.add('results__link--active');
+}
+
 /* Example for limitRecipeTitle below
 // 'Pasta with tomato and spinach'
 acc: 0 -> acc + cur-length = 5 -> newTitle = ['Pasta']
@@ -21,7 +29,7 @@ acc: 18 -> acc + cur-length = 25 > 17 newTitle = ['Pasta', 'with', 'tomato']
 
 */
 
-const limitRecipeTitle = (title, limit = 17) => {
+export const limitRecipeTitle = (title, limit = 17) => {
     const newTitle = [];
     if (title.length > limit){
         title.split(' ').reduce((acc, cur) => {
