@@ -6,19 +6,9 @@
       "age": 10
     },
     {
-      "name": "NAME",
-      "age": 20,
-      "id": 2
-    },
-    {
-      "name": "NAME",
-      "age": 20,
-      "id": 3
-    },
-    {
       "name": "Sam",
-      "age": 20,
-      "id": 4
+      "age": 14,
+      "id": 2
     }
   ]
 }

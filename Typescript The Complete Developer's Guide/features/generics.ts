@@ -49,7 +49,7 @@ printAnything(['a', 'b', 'c']); // Typescript förstår typen utan att den skriv
 
 // Generic Constraints
 
-class Car {
+class Car2 {
   print() {
     console.log('I am a car');
   }
@@ -72,4 +72,4 @@ function printHousesOrCars<T extends Printable>(arr: T[]): void {
 }
 
 printHousesOrCars<House>([new House(), new House()]);
-printHousesOrCars<Car>([new Car(), new Car()]);
+printHousesOrCars<Car2>([new Car2(), new Car2()]);
