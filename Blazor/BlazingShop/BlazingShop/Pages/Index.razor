@@ -1,0 +1,23 @@
+﻿@page "/"
+
+@using BlazingShop.Services
+
+@using BlazingShop.Data
+@inherits OwningComponentBase<ProductService>
+
+<div class="row">
+
+    @foreach(var product in listProduct)
+    {
+        <BlazingShop.Pages.Components.IndividualProduct product="product"></BlazingShop.Pages.Components.IndividualProduct>
+    }
+
+</div>
+
+@code{
+    List<Product> listProduct = new List<Product>();
+    protected override void OnInitialized()
+    {
+        listProduct = @Service.GetProducts();
+    }
+}

@@ -1,0 +1,21 @@
+﻿@page "/ParentComponent"
+<h1 class="text-danger">Parent Child Component</h1>
+
+<BlazingShop.Pages.Components.ChildComponent
+    OnClickMethod="@ShowMessage"                                         
+    Title="This title is passed as parameters from Parent">
+    This Content is displayed between the child component tag inside parent component.
+
+</BlazingShop.Pages.Components.ChildComponent>
+
+<p><b>@messageText</b></p>
+
+@code {
+
+    private string messageText;
+
+    private void ShowMessage(MouseEventArgs e)
+    {
+        messageText = "Blazing text from Parent";
+    }
+}
