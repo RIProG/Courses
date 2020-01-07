@@ -186,3 +186,13 @@ C:\Projects\Courses\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Blazi
 C:\Projects\Courses\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\BlazingShop.csproj.CopyComplete
 C:\Projects\Courses\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\BlazingShop.dll
 C:\Projects\Courses\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\BlazingShop.pdb
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Components\AppointmentComponent.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Components\DetailsComponent.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Details.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Razor\Pages\Components\AppointmentComponent.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Razor\Pages\Components\DetailsComponent.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Razor\Pages\Details.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\AppointmentBooked.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Razor\Pages\AppointmentBooked.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\AppointmentPage.razor.g.cs
+C:\Project\Kursrepo\Blazor\BlazingShop\BlazingShop\obj\Debug\netcoreapp3.0\Razor\Pages\AppointmentPage.razor.g.cs
